@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		950CC7C12B8C981700379BAE /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7C02B8C981700379BAE /* ApiClient.swift */; };
-		950CC7C72B8C9ACE00379BAE /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7C62B8C9ACE00379BAE /* RequestBuilderTests.swift */; };
-		950CC7D72B8C9CD700379BAE /* EventListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7D62B8C9CD700379BAE /* EventListViewModelTests.swift */; };
-		950CC7D92B8C9DDD00379BAE /* EventViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7D82B8C9DDD00379BAE /* EventViewModelTests.swift */; };
-		950CC7DB2B8C9E9000379BAE /* ErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7DA2B8C9E9000379BAE /* ErrorHandlerTests.swift */; };
-		950CC7E02B8CA02D00379BAE /* DayDateStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7DF2B8CA02D00379BAE /* DayDateStrategyTests.swift */; };
-		950CC7E32B8CA18800379BAE /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7E22B8CA18800379BAE /* DateExtensionTests.swift */; };
-		950CC7E52B8CA25500379BAE /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7E42B8CA25500379BAE /* ApiClientTests.swift */; };
-		950CC7E72B8CA75600379BAE /* EventServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC7E62B8CA75600379BAE /* EventServiceTests.swift */; };
+		950CC8472B8E1C2900379BAE /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC8462B8E1C2900379BAE /* DateExtensionTests.swift */; };
+		950CC8492B8E1C3100379BAE /* DayDateStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC8482B8E1C3100379BAE /* DayDateStrategyTests.swift */; };
+		950CC84B2B8E1C3A00379BAE /* EventListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC84A2B8E1C3A00379BAE /* EventListViewModelTests.swift */; };
+		950CC84D2B8E1C5000379BAE /* EventViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC84C2B8E1C5000379BAE /* EventViewModelTests.swift */; };
+		950CC84F2B8E1C5C00379BAE /* EventServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC84E2B8E1C5C00379BAE /* EventServiceTests.swift */; };
+		950CC8532B8E1C7900379BAE /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC8502B8E1C7900379BAE /* ApiClientTests.swift */; };
+		950CC8542B8E1C7900379BAE /* ErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC8512B8E1C7900379BAE /* ErrorHandlerTests.swift */; };
+		950CC8552B8E1C7900379BAE /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CC8522B8E1C7900379BAE /* RequestBuilderTests.swift */; };
 		95406F7E2B869959008E225A /* EventListDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406F7D2B869959008E225A /* EventListDemoApp.swift */; };
 		95406F802B869959008E225A /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406F7F2B869959008E225A /* EventListView.swift */; };
 		95406F822B86995C008E225A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95406F812B86995C008E225A /* Assets.xcassets */; };
@@ -23,10 +22,7 @@
 		95406F8F2B86995C008E225A /* EventListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406F8E2B86995C008E225A /* EventListDemoTests.swift */; };
 		95406FAB2B869B09008E225A /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FAA2B869B09008E225A /* EventListViewModel.swift */; };
 		95406FAE2B869B5E008E225A /* HTTPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FAD2B869B5E008E225A /* HTTPUtils.swift */; };
-		95406FB02B869C27008E225A /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FAF2B869C27008E225A /* RequestExecutor.swift */; };
-		95406FB22B869C41008E225A /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FB12B869C41008E225A /* RequestBuilder.swift */; };
 		95406FB52B86A77B008E225A /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FB42B86A77B008E225A /* NetworkRequestError.swift */; };
-		95406FB72B86A795008E225A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FB62B86A795008E225A /* ErrorHandler.swift */; };
 		95406FB92B86A829008E225A /* EndPointInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FB82B86A829008E225A /* EndPointInterface.swift */; };
 		95406FBC2B86AB03008E225A /* EventListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FBB2B86AB03008E225A /* EventListRequest.swift */; };
 		95406FBF2B86ACDD008E225A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95406FBE2B86ACDD008E225A /* Event.swift */; };
@@ -38,6 +34,10 @@
 		9545E67B2B87FED5009A8918 /* EventVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545E67A2B87FED5009A8918 /* EventVenue.swift */; };
 		9545E67D2B87FF1F009A8918 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545E67C2B87FF1F009A8918 /* EventService.swift */; };
 		9545E67F2B880344009A8918 /* EventListDemoAppResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545E67E2B880344009A8918 /* EventListDemoAppResolver.swift */; };
+		955BBE802B8E1D8000A4CD72 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BBE7C2B8E1D8000A4CD72 /* ErrorHandler.swift */; };
+		955BBE812B8E1D8000A4CD72 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BBE7D2B8E1D8000A4CD72 /* RequestBuilder.swift */; };
+		955BBE822B8E1D8000A4CD72 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BBE7E2B8E1D8000A4CD72 /* ApiClient.swift */; };
+		955BBE832B8E1D8000A4CD72 /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BBE7F2B8E1D8000A4CD72 /* RequestExecutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		950CC7C02B8C981700379BAE /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiClient.swift; path = ../../../../../Documents/ApiClient.swift; sourceTree = "<group>"; };
-		950CC7C62B8C9ACE00379BAE /* RequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestBuilderTests.swift; path = ../../../../../Documents/RequestBuilderTests.swift; sourceTree = "<group>"; };
-		950CC7D62B8C9CD700379BAE /* EventListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventListViewModelTests.swift; path = ../../../../../Documents/EventListViewModelTests.swift; sourceTree = "<group>"; };
-		950CC7D82B8C9DDD00379BAE /* EventViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewModelTests.swift; path = ../../../../../Documents/EventViewModelTests.swift; sourceTree = "<group>"; };
-		950CC7DA2B8C9E9000379BAE /* ErrorHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorHandlerTests.swift; path = ../../../../../Documents/ErrorHandlerTests.swift; sourceTree = "<group>"; };
-		950CC7DF2B8CA02D00379BAE /* DayDateStrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayDateStrategyTests.swift; path = ../../../../../Documents/DayDateStrategyTests.swift; sourceTree = "<group>"; };
-		950CC7E22B8CA18800379BAE /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtensionTests.swift; path = ../../../../../Documents/DateExtensionTests.swift; sourceTree = "<group>"; };
-		950CC7E42B8CA25500379BAE /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiClientTests.swift; path = ../../../../../Documents/ApiClientTests.swift; sourceTree = "<group>"; };
-		950CC7E62B8CA75600379BAE /* EventServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventServiceTests.swift; path = ../../../../../../Documents/EventServiceTests.swift; sourceTree = "<group>"; };
+		950CC8462B8E1C2900379BAE /* DateExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		950CC8482B8E1C3100379BAE /* DayDateStrategyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDateStrategyTests.swift; sourceTree = "<group>"; };
+		950CC84A2B8E1C3A00379BAE /* EventListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewModelTests.swift; sourceTree = "<group>"; };
+		950CC84C2B8E1C5000379BAE /* EventViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewModelTests.swift; sourceTree = "<group>"; };
+		950CC84E2B8E1C5C00379BAE /* EventServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventServiceTests.swift; sourceTree = "<group>"; };
+		950CC8502B8E1C7900379BAE /* ApiClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		950CC8512B8E1C7900379BAE /* ErrorHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerTests.swift; sourceTree = "<group>"; };
+		950CC8522B8E1C7900379BAE /* RequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
 		95406F7A2B869959008E225A /* EventListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95406F7D2B869959008E225A /* EventListDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListDemoApp.swift; sourceTree = "<group>"; };
 		95406F7F2B869959008E225A /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
@@ -69,10 +68,7 @@
 		95406F8E2B86995C008E225A /* EventListDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListDemoTests.swift; sourceTree = "<group>"; };
 		95406FAA2B869B09008E225A /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 		95406FAD2B869B5E008E225A /* HTTPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtils.swift; sourceTree = "<group>"; };
-		95406FAF2B869C27008E225A /* RequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
-		95406FB12B869C41008E225A /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		95406FB42B86A77B008E225A /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
-		95406FB62B86A795008E225A /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		95406FB82B86A829008E225A /* EndPointInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointInterface.swift; sourceTree = "<group>"; };
 		95406FBB2B86AB03008E225A /* EventListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListRequest.swift; sourceTree = "<group>"; };
 		95406FBE2B86ACDD008E225A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -84,6 +80,10 @@
 		9545E67A2B87FED5009A8918 /* EventVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVenue.swift; sourceTree = "<group>"; };
 		9545E67C2B87FF1F009A8918 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 		9545E67E2B880344009A8918 /* EventListDemoAppResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListDemoAppResolver.swift; sourceTree = "<group>"; };
+		955BBE7C2B8E1D8000A4CD72 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		955BBE7D2B8E1D8000A4CD72 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		955BBE7E2B8E1D8000A4CD72 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		955BBE7F2B8E1D8000A4CD72 /* RequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +116,9 @@
 		950CC7C52B8C9A5F00379BAE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7C62B8C9ACE00379BAE /* RequestBuilderTests.swift */,
-				950CC7DA2B8C9E9000379BAE /* ErrorHandlerTests.swift */,
-				950CC7E42B8CA25500379BAE /* ApiClientTests.swift */,
+				950CC8502B8E1C7900379BAE /* ApiClientTests.swift */,
+				950CC8512B8E1C7900379BAE /* ErrorHandlerTests.swift */,
+				950CC8522B8E1C7900379BAE /* RequestBuilderTests.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 		950CC7D42B8C9C9900379BAE /* EventView */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7D82B8C9DDD00379BAE /* EventViewModelTests.swift */,
+				950CC84C2B8E1C5000379BAE /* EventViewModelTests.swift */,
 			);
 			path = EventView;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 		950CC7D52B8C9CC600379BAE /* EventListView */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7D62B8C9CD700379BAE /* EventListViewModelTests.swift */,
+				950CC84A2B8E1C3A00379BAE /* EventListViewModelTests.swift */,
 			);
 			path = EventListView;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 		950CC7DC2B8C9FF800379BAE /* EventService */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7E62B8CA75600379BAE /* EventServiceTests.swift */,
+				950CC84E2B8E1C5C00379BAE /* EventServiceTests.swift */,
 			);
 			path = EventService;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 		950CC7DE2B8CA01400379BAE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7DF2B8CA02D00379BAE /* DayDateStrategyTests.swift */,
+				950CC8482B8E1C3100379BAE /* DayDateStrategyTests.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 		950CC7E12B8CA11B00379BAE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				950CC7E22B8CA18800379BAE /* DateExtensionTests.swift */,
+				950CC8462B8E1C2900379BAE /* DateExtensionTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -270,11 +270,11 @@
 		95406FAC2B869B1E008E225A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				955BBE7E2B8E1D8000A4CD72 /* ApiClient.swift */,
+				955BBE7C2B8E1D8000A4CD72 /* ErrorHandler.swift */,
+				955BBE7D2B8E1D8000A4CD72 /* RequestBuilder.swift */,
+				955BBE7F2B8E1D8000A4CD72 /* RequestExecutor.swift */,
 				95406FB32B86A74F008E225A /* Utils */,
-				95406FB12B869C41008E225A /* RequestBuilder.swift */,
-				95406FAF2B869C27008E225A /* RequestExecutor.swift */,
-				95406FB62B86A795008E225A /* ErrorHandler.swift */,
-				950CC7C02B8C981700379BAE /* ApiClient.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -462,23 +462,23 @@
 				95406FBC2B86AB03008E225A /* EventListRequest.swift in Sources */,
 				95406FC92B87A9B9008E225A /* DateExtension.swift in Sources */,
 				95406FBF2B86ACDD008E225A /* Event.swift in Sources */,
+				955BBE812B8E1D8000A4CD72 /* RequestBuilder.swift in Sources */,
 				95406FC72B879DE3008E225A /* DayDateStrategy.swift in Sources */,
 				95406FAE2B869B5E008E225A /* HTTPUtils.swift in Sources */,
 				95406FC22B86C0C5008E225A /* EventView.swift in Sources */,
+				955BBE802B8E1D8000A4CD72 /* ErrorHandler.swift in Sources */,
+				955BBE832B8E1D8000A4CD72 /* RequestExecutor.swift in Sources */,
 				95406FAB2B869B09008E225A /* EventListViewModel.swift in Sources */,
-				95406FB02B869C27008E225A /* RequestExecutor.swift in Sources */,
-				95406FB22B869C41008E225A /* RequestBuilder.swift in Sources */,
 				95406FB52B86A77B008E225A /* NetworkRequestError.swift in Sources */,
 				95406FCB2B87A9F2008E225A /* TimeZoneExtension.swift in Sources */,
 				9545E67F2B880344009A8918 /* EventListDemoAppResolver.swift in Sources */,
+				955BBE822B8E1D8000A4CD72 /* ApiClient.swift in Sources */,
 				95406FB92B86A829008E225A /* EndPointInterface.swift in Sources */,
-				95406FB72B86A795008E225A /* ErrorHandler.swift in Sources */,
 				9545E67B2B87FED5009A8918 /* EventVenue.swift in Sources */,
 				95406FC42B86C11D008E225A /* EventViewModel.swift in Sources */,
 				9545E67D2B87FF1F009A8918 /* EventService.swift in Sources */,
 				95406F802B869959008E225A /* EventListView.swift in Sources */,
 				95406F7E2B869959008E225A /* EventListDemoApp.swift in Sources */,
-				950CC7C12B8C981700379BAE /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,15 +486,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950CC7D72B8C9CD700379BAE /* EventListViewModelTests.swift in Sources */,
-				950CC7D92B8C9DDD00379BAE /* EventViewModelTests.swift in Sources */,
+				950CC8552B8E1C7900379BAE /* RequestBuilderTests.swift in Sources */,
 				95406F8F2B86995C008E225A /* EventListDemoTests.swift in Sources */,
-				950CC7E52B8CA25500379BAE /* ApiClientTests.swift in Sources */,
-				950CC7E32B8CA18800379BAE /* DateExtensionTests.swift in Sources */,
-				950CC7E72B8CA75600379BAE /* EventServiceTests.swift in Sources */,
-				950CC7DB2B8C9E9000379BAE /* ErrorHandlerTests.swift in Sources */,
-				950CC7C72B8C9ACE00379BAE /* RequestBuilderTests.swift in Sources */,
-				950CC7E02B8CA02D00379BAE /* DayDateStrategyTests.swift in Sources */,
+				950CC84B2B8E1C3A00379BAE /* EventListViewModelTests.swift in Sources */,
+				950CC84F2B8E1C5C00379BAE /* EventServiceTests.swift in Sources */,
+				950CC84D2B8E1C5000379BAE /* EventViewModelTests.swift in Sources */,
+				950CC8532B8E1C7900379BAE /* ApiClientTests.swift in Sources */,
+				950CC8542B8E1C7900379BAE /* ErrorHandlerTests.swift in Sources */,
+				950CC8472B8E1C2900379BAE /* DateExtensionTests.swift in Sources */,
+				950CC8492B8E1C3100379BAE /* DayDateStrategyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
